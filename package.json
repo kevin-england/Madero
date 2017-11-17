@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/kevin-england/Madero/issues"
   },
-  "homepage": "https://github.com/kevin-england/Madero#readme"
+  "homepage": "https://github.com/kevin-england/Madero#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
