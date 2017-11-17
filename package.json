@@ -1,0 +1,26 @@
+{
+  "name": "madero",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-england/Madero.git"
+  },
+  "keywords": [
+    "portfolio",
+    "graphic",
+    "design",
+    "web",
+    "design"
+  ],
+  "author": "Kevin England",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-england/Madero/issues"
+  },
+  "homepage": "https://github.com/kevin-england/Madero#readme"
+}
