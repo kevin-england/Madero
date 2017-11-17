@@ -26,6 +26,7 @@
   "homepage": "https://github.com/kevin-england/Madero#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "jquery": "^3.2.1",
     "materialize-css": "^0.100.2"
   }
 }
