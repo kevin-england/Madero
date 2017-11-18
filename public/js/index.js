@@ -4,5 +4,6 @@ $(document).ready(function() {
             window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
     }); 
     $(".button-collapse").sideNav();
+    $('.carousel').carousel();
 });
 
