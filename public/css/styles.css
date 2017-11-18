@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Edo', sans-serif;
 }
 
 .dropdown-menu {
@@ -51,7 +51,7 @@ footer p {
 }
 
 .madero-nav {
-  background-color: #4f0605;
+  background-color: #1e3345;
   border-bottom: 1px solid white;
   /* original color: background-color: #1e3345;*/
 }
@@ -190,4 +190,13 @@ nav i.material-icons {
     border-top: none;
     padding: 10px;
   }
+}
+
+/* Font imports */
+
+@font-face {
+  font-family: 'Edo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Edo'), url('../fonts/edo.woff') format('woff');
 }
