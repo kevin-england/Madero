@@ -1,8 +1,13 @@
+/* Command Prompt compiler lines: 
+    lessc --clean-css styles.less styles.min.css
+    lessc styles.less styles.css
+*/
 .active {
   /*border-top: 3px solid #f2b045;
   color: #f2b045 !important;*/
 }
 .active a {
+  background-color: #1e3345;
   border-top: 3px solid #ffd53b;
   color: #ffd53b !important;
   line-height: 102px;
@@ -46,7 +51,6 @@ footer p {
 }
 .madero-nav {
   background-color: #1e3345;
-  border-bottom: 1px solid white;
 }
 .madero-nav a {
   color: white;
@@ -81,6 +85,7 @@ nav .button-collapse i .material-icons {
   font-weight: bold;
 }
 .nav-wrapper li a:hover {
+  background-color: #1e3445;
   border-top: 3px solid #ffd53b;
   color: #ffd53b;
   line-height: 102px;
