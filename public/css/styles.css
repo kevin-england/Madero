@@ -56,6 +56,9 @@ footer p {
   color: white;
   font-size: 20px;
 }
+.material-icons {
+  font-size: 36px !important;
+}
 nav {
   height: 108px;
   line-height: 108px;
@@ -64,10 +67,7 @@ nav .button-collapse {
   float: right;
 }
 nav .button-collapse i {
-  line-height: 76px;
-}
-nav .button-collapse i .material-icons {
-  font-size: 36px;
+  line-height: 107px !important;
 }
 .nav-logo {
   padding: 10px 0;
