@@ -152,9 +152,6 @@ nav .button-collapse i {
     border-top: none;
     padding: 10px !important;
   }
-  .container {
-    width: auto;
-  }
   .graphic-img {
     margin: auto;
   }
@@ -197,6 +194,17 @@ nav .button-collapse i {
   .nav-logo {
     height: 65px !important;
     padding: 5px 15px;
+  }
+}
+@media (max-width: 325px) {
+  nav .button-collapse i {
+    line-height: 64px !important;
+  }
+  .nav-logo {
+    height: 55px !important;
+  }
+  .material-icons {
+    font-size: 28px !important;
   }
 }
 /* Font imports */
