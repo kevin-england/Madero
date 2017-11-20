@@ -8,9 +8,9 @@ $(document).ready(function() {
     /*Materialize Functions*/
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
-    
+
     /*Side nav close button function*/
-    $('.sideNav-close').click(function() {
+    $('.side-nav-close').click(function() {
       $('.button-collapse').sideNav('hide');
     });
 });
