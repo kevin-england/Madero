@@ -13,7 +13,8 @@
   line-height: 102px;
 }
 body {
-  font-family: 'Edo', sans-serif;
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
 }
 /*.dropdown-menu {
   background-color: rgba(28, 59, 80, 1);
@@ -54,6 +55,7 @@ footer p {
 }
 .madero-nav a {
   color: white;
+  font-family: 'Edo', sans-serif;
   font-size: 20px;
 }
 .material-icons {
@@ -142,11 +144,17 @@ nav .button-collapse i {
     border-top: none;
     padding: 10px !important;
   }
+  .container {
+    width: auto;
+  }
   .graphic-img {
     margin: auto;
   }
   .madero-nav {
     padding: 10px 5px;
+  }
+  nav .button-collapse i {
+    line-height: 90px !important;
   }
   .nav-logo {
     padding: 0;
@@ -169,6 +177,18 @@ nav .button-collapse i {
   .navbar-nav li a:hover {
     border-top: none;
     padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    height: 83px;
+  }
+  nav .button-collapse i {
+    line-height: 61px !important;
+  }
+  .nav-logo {
+    height: 65px;
+    padding: 5px 15px;
   }
 }
 /* Font imports */
