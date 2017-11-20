@@ -146,12 +146,19 @@ nav {
 
 .side-nav {
   background-color: #1e3345;
+  width: 260px;
 }
 
 .side-nav {
   li>a { 
     color: white;
   }
+}
+
+.side-nav-close {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .side-nav-title {
@@ -185,6 +192,9 @@ nav {
 }
 
 @media (max-width: 992px) {
+  .active a {
+    border-top: none;
+  }
   .nav-wrapper {
     li {
       a:hover {
@@ -259,19 +269,19 @@ nav {
     padding: 5px 15px;
   }
 }
-@media (max-width: 325px) {
+@media (max-width: 350px) {
+  .material-icons {
+    font-size: 28px !important;
+  }
+  .nav-logo {
+    height: 50px !important;
+  }
   nav {
     .button-collapse {
       i {
         line-height: 64px !important;
       }
     }
-  }
-  .nav-logo {
-    height: 55px !important;
-  }
-  .material-icons {
-    font-size: 28px !important;
   }
 }
 
