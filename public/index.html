@@ -11,6 +11,17 @@
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>
+    <!-- Script for MS 480 badge -->
+    <script type="text/javascript">
+      (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+        var o = document.getElementsByTagName('script')[0];
+        o.parentNode.insertBefore(s, o);
+        })();
+    </script>
   </head>
   <body>
     <nav class="madero-nav">
@@ -48,6 +59,8 @@
         <div class="row">
           <p style="margin: 50px">NEXT STEP IS TO LOOK INTO ADDING LESS/SASS AND LOOK INTO USING ANGULAR OR REACT!!!</p>
         </div>
+        <!-- iframe for MS 480 badge. Need to decide if you want to use this or images instead-->
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="07bb5e6a-9431-4650-99d7-f22d8329e9ea"></div>
       </div>
     </section>
     <footer>
