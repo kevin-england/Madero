@@ -207,6 +207,9 @@ p {
   h1 {
     font-size: 170%;
   }
+  footer p {
+    font-size: 90%;
+  }
   nav {
     height: 83px;
   }
