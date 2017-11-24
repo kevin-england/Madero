@@ -102,6 +102,9 @@ nav .button-collapse i {
   width: 25px;
   height: 3px;
 }
+p {
+  font-size: 20px;
+}
 .row-flex-wrap {
   -webkit-flex-flow: row wrap;
   align-content: flex-start;
