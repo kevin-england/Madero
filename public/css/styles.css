@@ -201,6 +201,9 @@ nav .button-collapse i {
   }
 }
 @media (max-width: 600px) {
+  h1 {
+    font-size: 170%;
+  }
   nav {
     height: 83px;
   }
@@ -210,6 +213,9 @@ nav .button-collapse i {
   .nav-logo {
     height: 65px !important;
     padding: 5px 15px;
+  }
+  p {
+    font-size: 90%;
   }
 }
 @media (max-width: 350px) {
