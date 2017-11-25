@@ -64,6 +64,9 @@ nav .button-collapse {
 nav .button-collapse i {
   line-height: 107px !important;
 }
+nav .button-collapse i:hover {
+  color: #ffd53b;
+}
 .nav-logo {
   padding: 10px 0;
 }
@@ -135,10 +138,16 @@ p {
   font-size: 24px;
   padding: 0 32px;
 }
+.slider {
+  margin: 40px 0;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #1e3345;
+}
 /*Responsive Web Design for all screen sizes including mobile*/
 @media (max-width: 1200px) {
-  .navbar-nav li {
-    font-size: 16px !important;
+  .parallax-container {
+    height: 380px;
   }
 }
 @media (max-width: 1055px) {
@@ -168,6 +177,9 @@ p {
   }
   .navbar-nav li a:hover {
     padding: 34px 10px;
+  }
+  .parallax-container {
+    height: 300px;
   }
 }
 @media (max-width: 767px) {
@@ -201,6 +213,9 @@ p {
   .navbar-nav li a:hover {
     border-top: none;
     padding: 10px;
+  }
+  .parallax-container {
+    height: 200px;
   }
 }
 @media (max-width: 600px) {
