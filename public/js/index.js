@@ -8,6 +8,7 @@ $(document).ready(function() {
     /*Materialize Functions*/
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
 
     /*Side nav close button function*/
     $('.side-nav-close').click(function() {
