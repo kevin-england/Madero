@@ -189,10 +189,10 @@ p {
     margin: auto;
   }
   .madero-nav {
-    padding: 10px 5px;
+    padding: 5px 5px;
   }
   nav .button-collapse i {
-    line-height: 90px !important;
+    line-height: 75px !important;
   }
   .nav-logo {
     padding: 5px 15px;
@@ -227,6 +227,9 @@ p {
   footer p {
     font-size: 90%;
   }
+  .madero-nav {
+    padding: 10px 5px;
+  }
   nav {
     height: 83px;
   }
@@ -241,7 +244,7 @@ p {
     font-size: 90%;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 357px) {
   .material-icons {
     font-size: 28px !important;
   }
