@@ -2,15 +2,11 @@
     lessc --clean-css styles.less styles.min.css
     lessc styles.less styles.css
 */
-.active {
-  /*border-top: 3px solid #f2b045;
-  color: #f2b045 !important;*/
-}
 .active a {
   background-color: #1e3345;
   border-top: 3px solid #ffd53b;
   color: #ffd53b !important;
-  line-height: 102px;
+  line-height: 85px;
 }
 body {
   font-family: 'Acme', sans-serif;
@@ -55,14 +51,14 @@ footer p {
   font-size: 36px !important;
 }
 nav {
-  height: 108px;
-  line-height: 108px;
+  height: 90px;
+  line-height: 90px;
 }
 nav .button-collapse {
   float: right;
 }
 nav .button-collapse i {
-  line-height: 107px !important;
+  line-height: 85px !important;
 }
 nav .button-collapse i:hover {
   color: #ffd53b;
@@ -86,10 +82,7 @@ nav .button-collapse i:hover {
   background-color: #1e3445;
   border-top: 3px solid #ffd53b;
   color: #ffd53b;
-  line-height: 102px;
-  /*original colors: background-color: #1e3345;
-      border-top: 3px solid #f2b045;
-      color: #f2b045;*/
+  line-height: 85px;
 }
 .navbar-toggle {
   /*background-color: #1e3345;*/
@@ -122,18 +115,27 @@ p {
 }
 .side-nav {
   background-color: #1e3345;
+  font-family: "Edo", sans-serif;
   width: 260px;
+}
+.side-nav li a:hover {
+  background-color: #1e3445;
+  border-top: 3px solid #ffd53b;
+  color: #ffd53b;
+  line-height: 85px;
 }
 .side-nav li > a {
   color: white;
 }
 .side-nav-close {
+  cursor: pointer;
   position: absolute;
   right: 0;
   top: 0;
 }
 .side-nav-title {
   border-bottom: 1px solid #ffd53b;
+  color: white;
   font-family: 'Edo', sans-serif;
   font-size: 24px;
   padding: 0 32px;
@@ -162,7 +164,7 @@ p {
   .active a {
     border-top: none;
   }
-  .nav-wrapper li a:hover {
+  .side-nav li a:hover {
     color: #ffd53b;
     background-color: #1e3445;
     border-top: none;
@@ -246,8 +248,11 @@ p {
   .nav-logo {
     height: 50px !important;
   }
+  nav {
+    height: 70px;
+  }
   nav .button-collapse i {
-    line-height: 64px !important;
+    line-height: 52px !important;
   }
 }
 /* Font imports */
