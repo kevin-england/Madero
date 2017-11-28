@@ -11,9 +11,15 @@ $(document).ready(function() {
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     $('.parallax').parallax();
     $('.slider').slider();
+    $('.tap-target').tapTarget('open');
+    $('.tap-target').tapTarget('close');
 
     /*Side nav close button function*/
     $('.side-nav-close').click(function() {
       $('.button-collapse').sideNav('hide');
     });
+
+    $('.tap-target').click(function() {
+        $('.tap-target').tapTarget('open');
+    })
 });

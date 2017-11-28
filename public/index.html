@@ -41,6 +41,11 @@
       <li><a class="side-nav-close">Close</a></l1>
     </ul>
     <section>
+      <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a id="menu" class="waves-effect waves-light btn btn-floating">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
       <div class="parallax-container">
         <div class="parallax">
           <img class="responsive-img" src="images/home-banner.jpg"/>
@@ -51,6 +56,15 @@
           <h1 class="center-align">Madero Web Design is all about style!</h1>
           <p>Madero Web Design is extensive in style, clients and types of projects. With specialties in editorial design, publishing, events and media, there is no project that is too big or too small.</p>
           <p>NEXT STEPS: CREATE MISSION STATEMENT AND PUT IT SOMEWHERE IN MY SITE & ALSO ADD CONTENT DISCUSSING MY VISION TO THINK MOBILE FIRST ALWAYS WHEN CREATING A WEBSITE IN TODAY'S ENVIRONMENT AND WHY I CHOSE MATERIALIZE AS A FRAMEWORK</p>
+          <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')">Open tap target</a>
+
+          <!-- Tap Target Structure -->
+          <div class="tap-target" data-activates="menu">
+            <div class="tap-target-content">
+              <h5>Contact us to see how we can help you out today!</h5>
+              <p>Learn more by contacting us directly</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container fluid">
