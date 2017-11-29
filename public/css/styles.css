@@ -2,6 +2,7 @@
     lessc --clean-css styles.less styles.min.css
     lessc styles.less styles.css
 */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 .active a {
   background-color: #1e3345;
   border-top: 3px solid #ffd53b;
@@ -9,7 +10,7 @@
   line-height: 85px;
 }
 body {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Oswald', serif;
   font-size: 18px;
 }
 .fluid {
@@ -47,9 +48,6 @@ footer p {
   font-family: 'Edo', sans-serif;
   font-size: 20px;
 }
-.material-icons {
-  font-size: 36px !important;
-}
 nav {
   height: 90px;
   line-height: 90px;
@@ -62,6 +60,9 @@ nav .button-collapse i {
 }
 nav .button-collapse i:hover {
   color: #ffd53b;
+}
+nav .material-icons {
+  font-size: 36px !important;
 }
 .nav-logo {
   padding: 10px 0;
@@ -145,6 +146,10 @@ p {
 }
 .slider .indicators .indicator-item.active {
   background-color: #1e3345;
+}
+.tap-target {
+  background-color: #FFE689;
+  font-family: 'Edo', sans-serif;
 }
 /*Responsive Web Design for all screen sizes including mobile*/
 @media (max-width: 1200px) {
