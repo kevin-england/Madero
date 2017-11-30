@@ -2,7 +2,7 @@
     lessc --clean-css styles.less styles.min.css
     lessc styles.less styles.css
 */
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .active a {
   background-color: #1e3345;
   border-top: 3px solid #ffd53b;
@@ -10,7 +10,7 @@
   line-height: 85px;
 }
 body {
-  font-family: 'Oswald', serif;
+  font-family: 'Poppins', serif;
   font-size: 18px;
 }
 .fluid {
