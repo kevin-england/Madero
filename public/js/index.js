@@ -10,13 +10,16 @@ $(document).ready(function() {
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     $('.parallax').parallax();
-    $('.slider').slider();
+    $('.slider').slider({
+        height: 500,
+    });
 
     /*Side nav close button function*/
     $('.side-nav-close').click(function() {
       $('.button-collapse').sideNav('hide');
     });
 
+    /* Materialize FeatureDiscovery Component */
     $('.blurb').click(function() {
         $('.tap-target').tapTarget('open');
     })
