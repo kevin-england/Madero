@@ -12,6 +12,10 @@
 body {
   font-family: 'Poppins', serif;
   font-size: 18px;
+  height: 100%;
+}
+.block {
+  height: 100%;
 }
 .blurb {
   background-color: #1e3345;
@@ -24,6 +28,17 @@ body {
 }
 .blurb-target:hover {
   background-color: #dab21c;
+}
+.cf4u {
+  background-color: #6f6f6f;
+}
+.cf4u .client {
+  cursor: default;
+  font-family: 'Edo', sans-serif;
+  font-size: 40px;
+}
+.cf4u .nav-wrapper {
+  background-color: #6f6f6f;
 }
 .fluid {
   max-width: 100%;
@@ -51,6 +66,20 @@ footer p {
 .graphic-row {
   display: flex;
   padding: 0;
+}
+html {
+  height: 100%;
+}
+.l-r {
+  background-color: #1e3345;
+}
+.l-r .client {
+  cursor: default;
+  font-family: 'Edo', sans-serif;
+  font-size: 40px;
+}
+.l-r .nav-wrapper {
+  background-color: #1e3345;
 }
 .madero-nav {
   background-color: #1e3345;
@@ -159,6 +188,17 @@ p {
 .tap-target {
   background-color: #FFE689;
   font-family: 'Edo', sans-serif;
+}
+.tps {
+  background-color: black;
+}
+.tps .client {
+  cursor: default;
+  font-family: 'Edo', sans-serif;
+  font-size: 40px;
+}
+.tps .nav-wrapper {
+  background-color: black;
 }
 /*Responsive Web Design for all screen sizes including mobile*/
 @media (max-width: 1200px) {
