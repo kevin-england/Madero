@@ -40,5 +40,5 @@ $(document).ready(function() {
             customCallbackFunc();
         } },
     ];
-    Materialize.scrollFire(options);
+    Materialize.scrollFire(options); 
 });
