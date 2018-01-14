@@ -13,6 +13,7 @@ $(document).ready(function() {
     $('.slider').slider({
         height: 500,
     });
+    $('.materialboxed').materialbox();
 
     /*Side nav close button function*/
     $('.side-nav-close').click(function() {
@@ -33,5 +34,11 @@ $(document).ready(function() {
           bottom: $target.offset().top + $target.outerHeight() - $this.height()
         });
     });
-        
+    var options = [
+        {selector: '.class', offset: 200, callback: customCallbackFunc },
+        {selector: '.other-class', offset: 200, callback: function() {
+            customCallbackFunc();
+        } },
+    ];
+    Materialize.scrollFire(options);     
 });
