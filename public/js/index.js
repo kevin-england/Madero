@@ -9,7 +9,9 @@ $(document).ready(function() {
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.collapsible').collapsible();
     $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
     $('.slider').slider({
         height: 500,
     });
